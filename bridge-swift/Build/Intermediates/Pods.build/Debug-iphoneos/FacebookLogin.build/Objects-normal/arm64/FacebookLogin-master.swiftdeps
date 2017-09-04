@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "c2a56c081f21b5e088ab0a126b1d98a5"
+build_time: [546319482, 527179000]
+inputs:
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": [532756684, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Pods/FacebookLogin/Sources/Login/LoginButton.swift": [532756684, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Pods/FacebookLogin/Sources/Login/LoginButton.Tooltip.swift": [532756684, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Pods/FacebookLogin/Sources/Login/LoginButtonDelegate.swift": [532756684, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Pods/FacebookLogin/Sources/Login/LoginButtonDelegateBridge.swift": [532756684, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Pods/FacebookLogin/Sources/Login/LoginDefaultAudience.swift": [532756684, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [532756684, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Pods/FacebookLogin/Sources/Login/LoginResult.swift": [532756684, 0]

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  is_open: false
+  student_id: 1
+  instructor_id: 1
+
+two:
+  is_open: false
+  student_id: 1
+  instructor_id: 1

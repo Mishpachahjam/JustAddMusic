@@ -1,0 +1,4 @@
+rails g scaffold InstructorProfile user_id:integer months_playing:integer main_instrument:string
+rails g scaffold StudentProfile user_id:integer level:string main_instrument:string
+
+

@@ -1,0 +1,31 @@
+rails g scaffold BridgePushNotification sender_id:integer receiver_id:integer message:string
+rails generate migration AddPushTokenToUser push_token:string   
+
+rails g scaffold Message sender_id:integer receiver_id:integer message:string is_new:boolean
+
+
+    t.integer  "parent_id"
+    t.string   "status"
+    t.integer  "receiver_id"
+    t.integer  "sender_id"
+    t.string   "subject"
+    t.string   "body"
+
+
+rails g scaffold LessonRequest is_open:boolean student_id:integer instructor_id:integer 
+rails g scaffold Lesson student_id:integer instructor_id:integer starts_at:datetime 
+
+rails generate migration AddFirstNameToStudentProfile first_name:string last_name:string  
+
+rails generate migration AddStartsAtToLessonRequest starts_at:datetime 
+
+rails generate migration AddIsOpenToJamToInstructorProfile is_open_to_jam:boolean
+rails generate migration AddIsOpenToJamToStudentProfile is_open_to_jam:boolean
+
+
+
+####
+
+rails generate migration AddPushTokenToUser push_token:string   
+
+rails generate migration AddLessonBountyToLessonRequest lesson_bounty:string lesson_description:string is_denied:boolean is_approved:boolean

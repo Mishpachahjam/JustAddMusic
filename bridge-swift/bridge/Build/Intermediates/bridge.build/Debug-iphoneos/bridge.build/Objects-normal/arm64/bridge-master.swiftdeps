@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "aaa939e777979c1c41496045dd546b60"
+build_time: [531968845, 115468000]
+inputs:
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/bridge/bridge/BaseViewController.swift": [531885391, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/bridge/bridge/ViewController_Login.swift": [531887706, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/bridge/bridge/HexColor.swift": [531885366, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/bridge/bridge/RestAPIClient.swift": [531885183, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/bridge/bridge/User.swift": [531887411, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/bridge/bridge/ViewController_Activity.swift": [531887117, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/bridge/bridge/ViewController.swift": [531887153, 0]
+  "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/bridge/bridge/AppDelegate.swift": [531888041, 0]

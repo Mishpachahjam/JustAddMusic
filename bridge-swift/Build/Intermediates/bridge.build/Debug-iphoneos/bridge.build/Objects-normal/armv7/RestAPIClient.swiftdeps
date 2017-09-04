@@ -1,0 +1,998 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ServiceResponse"
+- "CompletionCallback"
+- "RestAPIClient"
+provides-nominal:
+- "C6bridge13RestAPIClient"
+provides-member:
+- ["C6bridge13RestAPIClient", ""]
+- ["SS", ""]
+- ["Vs10Dictionary", ""]
+- ["SS", "stringByAddingPercentEncodingForURLQueryValue"]
+- ["Vs10Dictionary", "stringFromHttpParameters"]
+provides-dynamic-lookup:
+- "HTTPGetJSON"
+- "HTTPPostJSON"
+- "HTTPPutJSON"
+- "HTTPsendRequest"
+- "app_delegate"
+- "approve_lesson_request"
+- "authenticate"
+- "authenticate_with_facebook"
+- "base_url"
+- "create_instructor_profile"
+- "create_lesson"
+- "create_lesson_request"
+- "create_message"
+- "create_student_profile"
+- "create_user"
+- "decline_lesson_request"
+- "get_available_instructors"
+- "get_available_students"
+- "get_instructor_history"
+- "get_instructor_profile"
+- "get_instructor_profile_settings"
+- "get_lesson"
+- "get_lesson_request"
+- "get_lessons"
+- "get_message_roster"
+- "get_messages"
+- "get_student_history"
+- "get_student_profile"
+- "get_student_profile_settings"
+- "get_user_data"
+- "makeHTTPGetRequest"
+- "retrieve_instructor_info"
+- "retrieve_instructor_lessons"
+- "retrieve_student_info"
+- "retrieve_student_lessons"
+- "sharedInstance"
+- "submit_get_request"
+- "submit_post_request"
+- "submit_put_request"
+- "update_instructor_profile"
+- "update_lesson_request"
+- "update_student_profile"
+- "update_user"
+depends-top-level:
+- !private "!"
+- !private "+"
+- "AnyObject"
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "CharacterSet"
+- "CompletionCallback"
+- !private "Data"
+- "Dictionary"
+- !private "Int"
+- !private "JSONSerialization"
+- "NSData"
+- "NSDictionary"
+- "NSError"
+- !private "NSMutableCharacterSet"
+- "NSMutableDictionary"
+- "NSMutableURLRequest"
+- "NSObject"
+- !private "NSURL"
+- "RestAPIClient"
+- "ServiceResponse"
+- "String"
+- "StringLiteralType"
+- "UIApplication"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "HTTPGetJSON"]
+- !private ["Ps9AnyObject", "HTTPPostJSON"]
+- !private ["Ps9AnyObject", "HTTPPutJSON"]
+- !private ["Ps9AnyObject", "HTTPsendRequest"]
+- !private ["Ps9AnyObject", "JSONSerialization"]
+- !private ["Ps9AnyObject", "NSMutableURLRequest"]
+- !private ["Ps9AnyObject", "NSURL"]
+- ["Ps9AnyObject", "RestAPIClient"]
+- ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "URLSession"]
+- !private ["Ps9AnyObject", "addCharacters"]
+- !private ["Ps9AnyObject", "addValue"]
+- !private ["Ps9AnyObject", "addingPercentEncoding"]
+- !private ["Ps9AnyObject", "alphanumeric"]
+- !private ["Ps9AnyObject", "app_delegate"]
+- !private ["Ps9AnyObject", "auth_token"]
+- !private ["Ps9AnyObject", "base_url"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "dataTask"]
+- ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "httpBody"]
+- !private ["Ps9AnyObject", "httpMethod"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "jsonObject"]
+- !private ["Ps9AnyObject", "localizedDescription"]
+- !private ["Ps9AnyObject", "me"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "setValue"]
+- ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps9AnyObject", "submit_get_request"]
+- !private ["Ps9AnyObject", "submit_post_request"]
+- !private ["Ps9AnyObject", "submit_put_request"]
+- !private ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", ""]
+- !private ["C6bridge11AppDelegate", "me"]
+- !private ["P12FacebookCore26AppEventParameterValueType", "NSMutableCharacterSet"]
+- !private ["P12FacebookCore26AppEventParameterValueType", "addingPercentEncoding"]
+- ["P12FacebookCore26AppEventParameterValueType", "init"]
+- !private ["P12FacebookCore26AppEventParameterValueType", "isEmpty"]
+- !private ["P12FacebookCore26AppEventParameterValueType", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Sa", "joined"]
+- !private ["Ps23BidirectionalCollection", "joined"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "HTTPGetJSON"]
+- !private ["Ps7CVarArg", "HTTPPostJSON"]
+- !private ["Ps7CVarArg", "HTTPPutJSON"]
+- !private ["Ps7CVarArg", "HTTPsendRequest"]
+- !private ["Ps7CVarArg", "JSONSerialization"]
+- !private ["Ps7CVarArg", "NSMutableCharacterSet"]
+- !private ["Ps7CVarArg", "NSMutableURLRequest"]
+- !private ["Ps7CVarArg", "NSURL"]
+- ["Ps7CVarArg", "RestAPIClient"]
+- ["Ps7CVarArg", "UIApplication"]
+- !private ["Ps7CVarArg", "URLSession"]
+- !private ["Ps7CVarArg", "addCharacters"]
+- !private ["Ps7CVarArg", "addValue"]
+- !private ["Ps7CVarArg", "addingPercentEncoding"]
+- !private ["Ps7CVarArg", "alphanumeric"]
+- !private ["Ps7CVarArg", "app_delegate"]
+- !private ["Ps7CVarArg", "auth_token"]
+- !private ["Ps7CVarArg", "base_url"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "dataTask"]
+- ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "httpBody"]
+- !private ["Ps7CVarArg", "httpMethod"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "joined"]
+- !private ["Ps7CVarArg", "jsonObject"]
+- !private ["Ps7CVarArg", "localizedDescription"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "me"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "resume"]
+- !private ["Ps7CVarArg", "setValue"]
+- ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "sharedInstance"]
+- !private ["Ps7CVarArg", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps7CVarArg", "stringFromHttpParameters"]
+- !private ["Ps7CVarArg", "submit_get_request"]
+- !private ["Ps7CVarArg", "submit_post_request"]
+- !private ["Ps7CVarArg", "submit_put_request"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "joined"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "stringFromHttpParameters"]
+- !private ["Ps10Comparable", "NSMutableCharacterSet"]
+- !private ["Ps10Comparable", "addingPercentEncoding"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps10Comparable", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPGetJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPPostJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPPutJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPsendRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONSerialization"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableCharacterSet"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- ["Ps28CustomDebugStringConvertible", "RestAPIClient"]
+- ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSession"]
+- !private ["Ps28CustomDebugStringConvertible", "addCharacters"]
+- !private ["Ps28CustomDebugStringConvertible", "addValue"]
+- !private ["Ps28CustomDebugStringConvertible", "addingPercentEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "alphanumeric"]
+- !private ["Ps28CustomDebugStringConvertible", "app_delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "auth_token"]
+- !private ["Ps28CustomDebugStringConvertible", "base_url"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "httpBody"]
+- !private ["Ps28CustomDebugStringConvertible", "httpMethod"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "joined"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonObject"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "me"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps28CustomDebugStringConvertible", "stringFromHttpParameters"]
+- !private ["Ps28CustomDebugStringConvertible", "submit_get_request"]
+- !private ["Ps28CustomDebugStringConvertible", "submit_post_request"]
+- !private ["Ps28CustomDebugStringConvertible", "submit_put_request"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSMutableCharacterSet"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "addingPercentEncoding"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps17CustomReflectable", "NSMutableCharacterSet"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "addingPercentEncoding"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "joined"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps17CustomReflectable", "stringFromHttpParameters"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "HTTPGetJSON"]
+- !private ["Ps23CustomStringConvertible", "HTTPPostJSON"]
+- !private ["Ps23CustomStringConvertible", "HTTPPutJSON"]
+- !private ["Ps23CustomStringConvertible", "HTTPsendRequest"]
+- !private ["Ps23CustomStringConvertible", "JSONSerialization"]
+- !private ["Ps23CustomStringConvertible", "NSMutableCharacterSet"]
+- !private ["Ps23CustomStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- ["Ps23CustomStringConvertible", "RestAPIClient"]
+- ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "URLSession"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addCharacters"]
+- !private ["Ps23CustomStringConvertible", "addValue"]
+- !private ["Ps23CustomStringConvertible", "addingPercentEncoding"]
+- !private ["Ps23CustomStringConvertible", "alphanumeric"]
+- !private ["Ps23CustomStringConvertible", "app_delegate"]
+- !private ["Ps23CustomStringConvertible", "auth_token"]
+- !private ["Ps23CustomStringConvertible", "base_url"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "httpBody"]
+- !private ["Ps23CustomStringConvertible", "httpMethod"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "joined"]
+- !private ["Ps23CustomStringConvertible", "jsonObject"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "me"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps23CustomStringConvertible", "stringFromHttpParameters"]
+- !private ["Ps23CustomStringConvertible", "submit_get_request"]
+- !private ["Ps23CustomStringConvertible", "submit_post_request"]
+- !private ["Ps23CustomStringConvertible", "submit_put_request"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Vs10Dictionary", "String"]
+- !private ["Vs10Dictionary", "map"]
+- ["Vs10Dictionary", "stringFromHttpParameters"]
+- !private ["Ps9Equatable", "HTTPGetJSON"]
+- !private ["Ps9Equatable", "HTTPPostJSON"]
+- !private ["Ps9Equatable", "HTTPPutJSON"]
+- !private ["Ps9Equatable", "HTTPsendRequest"]
+- !private ["Ps9Equatable", "JSONSerialization"]
+- !private ["Ps9Equatable", "NSMutableCharacterSet"]
+- !private ["Ps9Equatable", "NSMutableURLRequest"]
+- !private ["Ps9Equatable", "NSURL"]
+- ["Ps9Equatable", "RestAPIClient"]
+- ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "URLSession"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addCharacters"]
+- !private ["Ps9Equatable", "addValue"]
+- !private ["Ps9Equatable", "addingPercentEncoding"]
+- !private ["Ps9Equatable", "alphanumeric"]
+- !private ["Ps9Equatable", "app_delegate"]
+- !private ["Ps9Equatable", "auth_token"]
+- !private ["Ps9Equatable", "base_url"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "dataTask"]
+- ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "httpBody"]
+- !private ["Ps9Equatable", "httpMethod"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "jsonObject"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- !private ["Ps9Equatable", "me"]
+- !private ["Ps9Equatable", "mutableContainers"]
+- !private ["Ps9Equatable", "prettyPrinted"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "resume"]
+- !private ["Ps9Equatable", "setValue"]
+- ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps9Equatable", "submit_get_request"]
+- !private ["Ps9Equatable", "submit_post_request"]
+- !private ["Ps9Equatable", "submit_put_request"]
+- !private ["Ps9Equatable", "subscript"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps25ExpressibleByArrayLiteral", "joined"]
+- !private ["Ps25ExpressibleByArrayLiteral", "mutableContainers"]
+- !private ["Ps25ExpressibleByArrayLiteral", "prettyPrinted"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "map"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "stringFromHttpParameters"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "NSMutableCharacterSet"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "addingPercentEncoding"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps26ExpressibleByStringLiteral", "NSMutableCharacterSet"]
+- !private ["Ps26ExpressibleByStringLiteral", "addingPercentEncoding"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- !private ["Ps26ExpressibleByStringLiteral", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "NSMutableCharacterSet"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "addingPercentEncoding"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps8Hashable", "HTTPGetJSON"]
+- !private ["Ps8Hashable", "HTTPPostJSON"]
+- !private ["Ps8Hashable", "HTTPPutJSON"]
+- !private ["Ps8Hashable", "HTTPsendRequest"]
+- !private ["Ps8Hashable", "JSONSerialization"]
+- !private ["Ps8Hashable", "NSMutableCharacterSet"]
+- !private ["Ps8Hashable", "NSMutableURLRequest"]
+- !private ["Ps8Hashable", "NSURL"]
+- ["Ps8Hashable", "RestAPIClient"]
+- ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "URLSession"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addCharacters"]
+- !private ["Ps8Hashable", "addValue"]
+- !private ["Ps8Hashable", "addingPercentEncoding"]
+- !private ["Ps8Hashable", "alphanumeric"]
+- !private ["Ps8Hashable", "app_delegate"]
+- !private ["Ps8Hashable", "auth_token"]
+- !private ["Ps8Hashable", "base_url"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "dataTask"]
+- ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "httpBody"]
+- !private ["Ps8Hashable", "httpMethod"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "jsonObject"]
+- !private ["Ps8Hashable", "localizedDescription"]
+- !private ["Ps8Hashable", "me"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "resume"]
+- !private ["Ps8Hashable", "setValue"]
+- ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps8Hashable", "submit_get_request"]
+- !private ["Ps8Hashable", "submit_post_request"]
+- !private ["Ps8Hashable", "submit_put_request"]
+- !private ["Ps8Hashable", "subscript"]
+- ["Ps8Hashable", ""]
+- !private ["CSo17JSONSerialization", "data"]
+- !private ["CSo17JSONSerialization", "jsonObject"]
+- !private ["Ps25LosslessStringConvertible", "NSMutableCharacterSet"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "addingPercentEncoding"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["Ps25LosslessStringConvertible", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps10MirrorPath", "NSMutableCharacterSet"]
+- !private ["Ps10MirrorPath", "addingPercentEncoding"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- !private ["Ps10MirrorPath", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps17MutableCollection", "joined"]
+- !private ["CSo14NSCharacterSet", "addCharacters"]
+- !private ["CSo14NSCharacterSet", "alphanumeric"]
+- !private ["PSo8NSCoding", "addCharacters"]
+- !private ["PSo8NSCoding", "addValue"]
+- !private ["PSo8NSCoding", "addingPercentEncoding"]
+- !private ["PSo8NSCoding", "alphanumeric"]
+- !private ["PSo8NSCoding", "httpBody"]
+- !private ["PSo8NSCoding", "httpMethod"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo8NSCoding", "setValue"]
+- !private ["PSo8NSCoding", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo9NSCopying", "addCharacters"]
+- !private ["PSo9NSCopying", "addValue"]
+- !private ["PSo9NSCopying", "addingPercentEncoding"]
+- !private ["PSo9NSCopying", "alphanumeric"]
+- !private ["PSo9NSCopying", "httpBody"]
+- !private ["PSo9NSCopying", "httpMethod"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "setValue"]
+- !private ["PSo9NSCopying", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo20NSFetchRequestResult", "subscript"]
+- !private ["CSo21NSMutableCharacterSet", "addCharacters"]
+- !private ["CSo21NSMutableCharacterSet", "alphanumeric"]
+- !private ["PSo16NSMutableCopying", "addCharacters"]
+- !private ["PSo16NSMutableCopying", "addValue"]
+- !private ["PSo16NSMutableCopying", "addingPercentEncoding"]
+- !private ["PSo16NSMutableCopying", "alphanumeric"]
+- !private ["PSo16NSMutableCopying", "httpBody"]
+- !private ["PSo16NSMutableCopying", "httpMethod"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["PSo16NSMutableCopying", "setValue"]
+- !private ["PSo16NSMutableCopying", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- !private ["CSo19NSMutableDictionary", "subscript"]
+- !private ["CSo19NSMutableURLRequest", "addValue"]
+- !private ["CSo19NSMutableURLRequest", "httpBody"]
+- !private ["CSo19NSMutableURLRequest", "httpMethod"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- !private ["CSo19NSMutableURLRequest", "setValue"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "AppDelegate"]
+- !private ["CSo8NSObject", "Data"]
+- ["CSo8NSObject", "HTTPGetJSON"]
+- ["CSo8NSObject", "HTTPPostJSON"]
+- ["CSo8NSObject", "HTTPPutJSON"]
+- ["CSo8NSObject", "HTTPsendRequest"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "JSONSerialization"]
+- ["CSo8NSObject", "NSData"]
+- ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "NSMutableDictionary"]
+- ["CSo8NSObject", "NSMutableURLRequest"]
+- !private ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "RestAPIClient"]
+- ["CSo8NSObject", "ServiceResponse"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIApplication"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "URLRequest"]
+- !private ["CSo8NSObject", "URLSession"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addCharacters"]
+- !private ["CSo8NSObject", "addValue"]
+- !private ["CSo8NSObject", "addingPercentEncoding"]
+- !private ["CSo8NSObject", "alphanumeric"]
+- ["CSo8NSObject", "app_delegate"]
+- ["CSo8NSObject", "approve_lesson_request"]
+- !private ["CSo8NSObject", "auth_token"]
+- ["CSo8NSObject", "authenticate"]
+- ["CSo8NSObject", "authenticate_with_facebook"]
+- ["CSo8NSObject", "base_url"]
+- ["CSo8NSObject", "create_instructor_profile"]
+- ["CSo8NSObject", "create_lesson"]
+- ["CSo8NSObject", "create_lesson_request"]
+- ["CSo8NSObject", "create_message"]
+- ["CSo8NSObject", "create_student_profile"]
+- ["CSo8NSObject", "create_user"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "dataTask"]
+- ["CSo8NSObject", "decline_lesson_request"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "get_available_instructors"]
+- ["CSo8NSObject", "get_available_students"]
+- ["CSo8NSObject", "get_instructor_history"]
+- ["CSo8NSObject", "get_instructor_profile"]
+- ["CSo8NSObject", "get_instructor_profile_settings"]
+- ["CSo8NSObject", "get_lesson"]
+- ["CSo8NSObject", "get_lesson_request"]
+- ["CSo8NSObject", "get_lessons"]
+- ["CSo8NSObject", "get_message_roster"]
+- ["CSo8NSObject", "get_messages"]
+- ["CSo8NSObject", "get_student_history"]
+- ["CSo8NSObject", "get_student_profile"]
+- ["CSo8NSObject", "get_student_profile_settings"]
+- ["CSo8NSObject", "get_user_data"]
+- !private ["CSo8NSObject", "httpBody"]
+- !private ["CSo8NSObject", "httpMethod"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "jsonObject"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- ["CSo8NSObject", "makeHTTPGetRequest"]
+- !private ["CSo8NSObject", "me"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "retrieve_instructor_info"]
+- ["CSo8NSObject", "retrieve_instructor_lessons"]
+- ["CSo8NSObject", "retrieve_student_info"]
+- ["CSo8NSObject", "retrieve_student_lessons"]
+- !private ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "shared"]
+- ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "stringByAddingPercentEncodingForURLQueryValue"]
+- ["CSo8NSObject", "submit_get_request"]
+- ["CSo8NSObject", "submit_post_request"]
+- ["CSo8NSObject", "submit_put_request"]
+- !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", "update_instructor_profile"]
+- ["CSo8NSObject", "update_lesson_request"]
+- ["CSo8NSObject", "update_student_profile"]
+- ["CSo8NSObject", "update_user"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "HTTPGetJSON"]
+- !private ["PSo16NSObjectProtocol", "HTTPPostJSON"]
+- !private ["PSo16NSObjectProtocol", "HTTPPutJSON"]
+- !private ["PSo16NSObjectProtocol", "HTTPsendRequest"]
+- !private ["PSo16NSObjectProtocol", "JSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "NSMutableURLRequest"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- ["PSo16NSObjectProtocol", "RestAPIClient"]
+- ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "URLSession"]
+- !private ["PSo16NSObjectProtocol", "addCharacters"]
+- !private ["PSo16NSObjectProtocol", "addValue"]
+- !private ["PSo16NSObjectProtocol", "addingPercentEncoding"]
+- !private ["PSo16NSObjectProtocol", "alphanumeric"]
+- !private ["PSo16NSObjectProtocol", "app_delegate"]
+- !private ["PSo16NSObjectProtocol", "auth_token"]
+- !private ["PSo16NSObjectProtocol", "base_url"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "dataTask"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "httpBody"]
+- !private ["PSo16NSObjectProtocol", "httpMethod"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "jsonObject"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "me"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["PSo16NSObjectProtocol", "submit_get_request"]
+- !private ["PSo16NSObjectProtocol", "submit_post_request"]
+- !private ["PSo16NSObjectProtocol", "submit_put_request"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "addCharacters"]
+- !private ["PSo14NSSecureCoding", "addValue"]
+- !private ["PSo14NSSecureCoding", "addingPercentEncoding"]
+- !private ["PSo14NSSecureCoding", "alphanumeric"]
+- !private ["PSo14NSSecureCoding", "httpBody"]
+- !private ["PSo14NSSecureCoding", "httpMethod"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["PSo14NSSecureCoding", "setValue"]
+- !private ["PSo14NSSecureCoding", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["CSo8NSString", "addingPercentEncoding"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["CSo8NSString", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo12NSURLRequest", "addValue"]
+- !private ["CSo12NSURLRequest", "httpBody"]
+- !private ["CSo12NSURLRequest", "httpMethod"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo12NSURLRequest", "setValue"]
+- !private ["Ps9OptionSet", "mutableContainers"]
+- !private ["Ps9OptionSet", "prettyPrinted"]
+- !private ["Ps22RandomAccessCollection", "joined"]
+- !private ["Ps26RangeReplaceableCollection", "joined"]
+- !private ["Ps16RawRepresentable", "mutableContainers"]
+- !private ["Ps16RawRepresentable", "prettyPrinted"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "mutableContainers"]
+- ["C6bridge13RestAPIClient", "AnyObject"]
+- ["C6bridge13RestAPIClient", "AppDelegate"]
+- !private ["C6bridge13RestAPIClient", "Data"]
+- ["C6bridge13RestAPIClient", "HTTPGetJSON"]
+- ["C6bridge13RestAPIClient", "HTTPPostJSON"]
+- ["C6bridge13RestAPIClient", "HTTPPutJSON"]
+- ["C6bridge13RestAPIClient", "HTTPsendRequest"]
+- !private ["C6bridge13RestAPIClient", "Int"]
+- !private ["C6bridge13RestAPIClient", "JSONSerialization"]
+- ["C6bridge13RestAPIClient", "NSData"]
+- ["C6bridge13RestAPIClient", "NSDictionary"]
+- !private ["C6bridge13RestAPIClient", "NSError"]
+- ["C6bridge13RestAPIClient", "NSMutableDictionary"]
+- ["C6bridge13RestAPIClient", "NSMutableURLRequest"]
+- !private ["C6bridge13RestAPIClient", "NSURL"]
+- ["C6bridge13RestAPIClient", "RestAPIClient"]
+- ["C6bridge13RestAPIClient", "ServiceResponse"]
+- ["C6bridge13RestAPIClient", "String"]
+- ["C6bridge13RestAPIClient", "UIApplication"]
+- !private ["C6bridge13RestAPIClient", "URL"]
+- !private ["C6bridge13RestAPIClient", "URLRequest"]
+- !private ["C6bridge13RestAPIClient", "URLSession"]
+- ["C6bridge13RestAPIClient", "Void"]
+- ["C6bridge13RestAPIClient", "app_delegate"]
+- ["C6bridge13RestAPIClient", "approve_lesson_request"]
+- ["C6bridge13RestAPIClient", "authenticate"]
+- ["C6bridge13RestAPIClient", "authenticate_with_facebook"]
+- ["C6bridge13RestAPIClient", "base_url"]
+- ["C6bridge13RestAPIClient", "create_instructor_profile"]
+- ["C6bridge13RestAPIClient", "create_lesson"]
+- ["C6bridge13RestAPIClient", "create_lesson_request"]
+- ["C6bridge13RestAPIClient", "create_message"]
+- ["C6bridge13RestAPIClient", "create_student_profile"]
+- ["C6bridge13RestAPIClient", "create_user"]
+- ["C6bridge13RestAPIClient", "decline_lesson_request"]
+- ["C6bridge13RestAPIClient", "deinit"]
+- ["C6bridge13RestAPIClient", "get_available_instructors"]
+- ["C6bridge13RestAPIClient", "get_available_students"]
+- ["C6bridge13RestAPIClient", "get_instructor_history"]
+- ["C6bridge13RestAPIClient", "get_instructor_profile"]
+- ["C6bridge13RestAPIClient", "get_instructor_profile_settings"]
+- ["C6bridge13RestAPIClient", "get_lesson"]
+- ["C6bridge13RestAPIClient", "get_lesson_request"]
+- ["C6bridge13RestAPIClient", "get_lessons"]
+- ["C6bridge13RestAPIClient", "get_message_roster"]
+- ["C6bridge13RestAPIClient", "get_messages"]
+- ["C6bridge13RestAPIClient", "get_student_history"]
+- ["C6bridge13RestAPIClient", "get_student_profile"]
+- ["C6bridge13RestAPIClient", "get_student_profile_settings"]
+- ["C6bridge13RestAPIClient", "get_user_data"]
+- ["C6bridge13RestAPIClient", "init"]
+- ["C6bridge13RestAPIClient", "makeHTTPGetRequest"]
+- !private ["C6bridge13RestAPIClient", "print"]
+- ["C6bridge13RestAPIClient", "retrieve_instructor_info"]
+- ["C6bridge13RestAPIClient", "retrieve_instructor_lessons"]
+- ["C6bridge13RestAPIClient", "retrieve_student_info"]
+- ["C6bridge13RestAPIClient", "retrieve_student_lessons"]
+- ["C6bridge13RestAPIClient", "sharedInstance"]
+- ["C6bridge13RestAPIClient", "submit_get_request"]
+- ["C6bridge13RestAPIClient", "submit_post_request"]
+- ["C6bridge13RestAPIClient", "submit_put_request"]
+- ["C6bridge13RestAPIClient", "update_instructor_profile"]
+- ["C6bridge13RestAPIClient", "update_lesson_request"]
+- ["C6bridge13RestAPIClient", "update_student_profile"]
+- ["C6bridge13RestAPIClient", "update_user"]
+- !private ["Ps8Sequence", "joined"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "stringFromHttpParameters"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10SetAlgebra", "mutableContainers"]
+- !private ["Ps10SetAlgebra", "prettyPrinted"]
+- !private ["SS", "CharacterSet"]
+- !private ["SS", "NSMutableCharacterSet"]
+- ["SS", "String"]
+- !private ["SS", "addingPercentEncoding"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- ["SS", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps16TextOutputStream", "NSMutableCharacterSet"]
+- !private ["Ps16TextOutputStream", "addingPercentEncoding"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- !private ["Ps16TextOutputStream", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps20TextOutputStreamable", "NSMutableCharacterSet"]
+- !private ["Ps20TextOutputStreamable", "addingPercentEncoding"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- !private ["Ps20TextOutputStreamable", "stringByAddingPercentEncodingForURLQueryValue"]
+- ["CSo13UIApplication", "delegate"]
+- ["CSo13UIApplication", "shared"]
+- !private ["PSo21UIApplicationDelegate", "me"]
+- ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "me"]
+- ["CSo11UIResponder", "shared"]
+- ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "me"]
+- ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["PSo32UNUserNotificationCenterDelegate", "me"]
+- !private ["CSo10URLSession", "dataTask"]
+- !private ["CSo10URLSession", "shared"]
+- !private ["CSo18URLSessionDataTask", "resume"]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["C6bridge4User", "auth_token"]
+- !private ["VCSo17JSONSerialization14WritingOptions", "prettyPrinted"]
+- !private ["Ps14_ArrayProtocol", "joined"]
+- !private ["Ps23_BidirectionalIndexable", "joined"]
+- !private ["Ps24_DestructorSafeContainer", "joined"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "NSMutableCharacterSet"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "addingPercentEncoding"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "NSMutableCharacterSet"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "addingPercentEncoding"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "NSMutableCharacterSet"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "addingPercentEncoding"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "NSMutableCharacterSet"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "addingPercentEncoding"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "NSMutableCharacterSet"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "addingPercentEncoding"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "isEmpty"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "addCharacters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "addValue"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "addingPercentEncoding"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "alphanumeric"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "httpBody"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "httpMethod"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "setValue"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps9_Hashable", "HTTPGetJSON"]
+- !private ["Ps9_Hashable", "HTTPPostJSON"]
+- !private ["Ps9_Hashable", "HTTPPutJSON"]
+- !private ["Ps9_Hashable", "HTTPsendRequest"]
+- !private ["Ps9_Hashable", "JSONSerialization"]
+- !private ["Ps9_Hashable", "NSMutableCharacterSet"]
+- !private ["Ps9_Hashable", "NSMutableURLRequest"]
+- !private ["Ps9_Hashable", "NSURL"]
+- ["Ps9_Hashable", "RestAPIClient"]
+- ["Ps9_Hashable", "UIApplication"]
+- !private ["Ps9_Hashable", "URLSession"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addCharacters"]
+- !private ["Ps9_Hashable", "addValue"]
+- !private ["Ps9_Hashable", "addingPercentEncoding"]
+- !private ["Ps9_Hashable", "alphanumeric"]
+- !private ["Ps9_Hashable", "app_delegate"]
+- !private ["Ps9_Hashable", "auth_token"]
+- !private ["Ps9_Hashable", "base_url"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "dataTask"]
+- ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "httpBody"]
+- !private ["Ps9_Hashable", "httpMethod"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps9_Hashable", "jsonObject"]
+- !private ["Ps9_Hashable", "localizedDescription"]
+- !private ["Ps9_Hashable", "me"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "resume"]
+- !private ["Ps9_Hashable", "setValue"]
+- ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "sharedInstance"]
+- !private ["Ps9_Hashable", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps9_Hashable", "submit_get_request"]
+- !private ["Ps9_Hashable", "submit_post_request"]
+- !private ["Ps9_Hashable", "submit_put_request"]
+- !private ["Ps9_Hashable", "subscript"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "joined"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "stringFromHttpParameters"]
+- !private ["Ps14_IndexableBase", "joined"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "stringFromHttpParameters"]
+- !private ["Ps17_MutableIndexable", "joined"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSMutableCharacterSet"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "addingPercentEncoding"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "joined"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "stringByAddingPercentEncodingForURLQueryValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "stringFromHttpParameters"]
+- !private ["Ps22_RandomAccessIndexable", "joined"]
+- !private ["Ps26_RangeReplaceableIndexable", "joined"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C6bridge11AppDelegate"
+- "P12FacebookCore26AppEventParameterValueType"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "CSo17JSONSerialization"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "CSo14NSCharacterSet"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "CSo7NSError"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo20NSFetchRequestResult"
+- !private "CSo21NSMutableCharacterSet"
+- "PSo16NSMutableCopying"
+- !private "CSo19NSMutableDictionary"
+- !private "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLRequest"
+- !private "Ps9OptionSet"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "VCSo17JSONSerialization14ReadingOptions"
+- "C6bridge13RestAPIClient"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo32UNUserNotificationCenterDelegate"
+- !private "CSo10URLSession"
+- !private "CSo18URLSessionDataTask"
+- !private "CSo14URLSessionTask"
+- !private "C6bridge4User"
+- !private "VCSo17JSONSerialization14WritingOptions"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UserNotifications.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/MapKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm.swiftmodule"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/bridge/bridge/bridge-Bridging-Header.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "21c7649cf6bf583d1b8fd928276c6c1b"

@@ -1,0 +1,292 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "User"
+provides-nominal:
+- "C6bridge4User"
+provides-member:
+- ["C6bridge4User", ""]
+provides-dynamic-lookup:
+- "auth_token"
+- "destroy"
+- "email"
+- "facebook_first_name"
+- "facebook_last_name"
+- "facebook_picture_url"
+- "id"
+- "is_instructor"
+- "is_student"
+- "location"
+- "profile_id"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CLLocation"
+- "Int"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "User"
+depends-member:
+- !private ["Ps9AnyObject", "auth_token"]
+- !private ["Ps9AnyObject", "email"]
+- !private ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "is_instructor"]
+- !private ["Ps9AnyObject", "is_student"]
+- !private ["Ps9AnyObject", "location"]
+- ["Ps9AnyObject", ""]
+- ["P12FacebookCore26AppEventParameterValueType", "init"]
+- !private ["Ps7CVarArg", "auth_token"]
+- !private ["Ps7CVarArg", "email"]
+- !private ["Ps7CVarArg", "id"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "is_instructor"]
+- !private ["Ps7CVarArg", "is_student"]
+- !private ["Ps7CVarArg", "location"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "auth_token"]
+- !private ["Ps28CustomDebugStringConvertible", "email"]
+- !private ["Ps28CustomDebugStringConvertible", "id"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "is_instructor"]
+- !private ["Ps28CustomDebugStringConvertible", "is_student"]
+- !private ["Ps28CustomDebugStringConvertible", "location"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "auth_token"]
+- !private ["Ps23CustomStringConvertible", "email"]
+- !private ["Ps23CustomStringConvertible", "id"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "is_instructor"]
+- !private ["Ps23CustomStringConvertible", "is_student"]
+- !private ["Ps23CustomStringConvertible", "location"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "auth_token"]
+- !private ["Ps9Equatable", "email"]
+- !private ["Ps9Equatable", "id"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "is_instructor"]
+- !private ["Ps9Equatable", "is_student"]
+- !private ["Ps9Equatable", "location"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "auth_token"]
+- !private ["Ps8Hashable", "email"]
+- !private ["Ps8Hashable", "id"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "is_instructor"]
+- !private ["Ps8Hashable", "is_student"]
+- !private ["Ps8Hashable", "location"]
+- ["Ps8Hashable", ""]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CLLocation"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "auth_token"]
+- ["CSo8NSObject", "destroy"]
+- ["CSo8NSObject", "email"]
+- ["CSo8NSObject", "facebook_first_name"]
+- ["CSo8NSObject", "facebook_last_name"]
+- ["CSo8NSObject", "facebook_picture_url"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "is_instructor"]
+- ["CSo8NSObject", "is_student"]
+- ["CSo8NSObject", "location"]
+- ["CSo8NSObject", "profile_id"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "auth_token"]
+- !private ["PSo16NSObjectProtocol", "email"]
+- !private ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "is_instructor"]
+- !private ["PSo16NSObjectProtocol", "is_student"]
+- !private ["PSo16NSObjectProtocol", "location"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["C6bridge4User", "Bool"]
+- ["C6bridge4User", "CLLocation"]
+- ["C6bridge4User", "Int"]
+- ["C6bridge4User", "String"]
+- ["C6bridge4User", "auth_token"]
+- ["C6bridge4User", "deinit"]
+- ["C6bridge4User", "destroy"]
+- ["C6bridge4User", "email"]
+- ["C6bridge4User", "facebook_first_name"]
+- ["C6bridge4User", "facebook_last_name"]
+- ["C6bridge4User", "facebook_picture_url"]
+- ["C6bridge4User", "id"]
+- ["C6bridge4User", "init"]
+- ["C6bridge4User", "is_instructor"]
+- ["C6bridge4User", "is_student"]
+- ["C6bridge4User", "location"]
+- ["C6bridge4User", "profile_id"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "auth_token"]
+- !private ["Ps9_Hashable", "email"]
+- !private ["Ps9_Hashable", "id"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "is_instructor"]
+- !private ["Ps9_Hashable", "is_student"]
+- !private ["Ps9_Hashable", "location"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P12FacebookCore26AppEventParameterValueType"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C6bridge4User"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UserNotifications.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm64.swiftmodule"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/bridge/bridge/bridge-Bridging-Header.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/konstantinyurchenko/Desktop/DEVELOPER/BRIDGE/bridge-swift/Build/Products/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "ccaca1ee267907c878dfbe980bb81b63"

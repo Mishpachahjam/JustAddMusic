@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  months_playing: 1
+  main_instrument: MyString
+
+two:
+  user_id: 1
+  months_playing: 1
+  main_instrument: MyString

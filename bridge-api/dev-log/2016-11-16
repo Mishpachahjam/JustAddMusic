@@ -1,0 +1,19 @@
+rails generate migration AddInstructorExperienceToInstructorProfile instructor_experience:string --environment=test
+rails generate migration AddPlayingLevelToStudentProfile playing_level:string --environment=test
+
+rails generate migration AddBioToStudentProfile bio:string
+rails generate migration AddBioToInstructorProfile bio:string
+
+rails generate migration RemoveMonthsPlayingFromInstructorProfile months_playing:integer
+rails generate migration RemoveLevelFromStudentProfile level:string
+
+rails generate migration RemoveAccessTokenFromFacebookAccount facebook_account:string
+
+def up
+    change_column :your_table, :your_column, :text
+end
+def down
+    # This might cause trouble if you have strings longer
+    # than 255 characters.
+    change_column :your_table, :your_column, :string
+end

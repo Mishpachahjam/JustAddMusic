@@ -1,0 +1,9 @@
+bridge-api
+	
+	is a ruby on rails application with Rails 5 support
+	recommended hosting AWS Elastic Beanstalk Stack + puma
+
+
+bridge-swift 
+
+	is a front end ios client of bridge built in swift 3.0

@@ -1,0 +1,21 @@
+platform :ios, '10.0'
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+project 'bridge/bridge.xcodeproj'
+
+def import_pods 
+     pod 'SDWebImage', '~>3.7'
+    # pod 'pop', '~> 1.0'
+    # sockets
+    # pod 'Starscream', :git => 'https://github.com/daltoniam/Starscream.git', :branch => 'swift3'
+    # pod 'ActionCableClient', :git => 'https://github.com/danielrhodes/Swift-ActionCableClient', :branch => 'swift3'
+    pod 'FacebookCore'
+	pod 'FacebookLogin'
+	pod 'FacebookShare'
+end
+
+target "bridge" do
+    import_pods
+end

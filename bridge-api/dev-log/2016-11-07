@@ -1,0 +1,28 @@
+# https://hashrocket.com/blog/posts/how-to-make-rails-5-api-only
+# http://tutorials.pluralsight.com/ruby-ruby-on-rails/token-based-authentication-with-ruby-on-rails-5-api
+
+rvm install ruby-2.3.1
+rvm use ruby-2.3.1@rails5.0
+
+rails new bridge-api --api
+
+
+rvm ls
+rvm gemset list
+
+rvm use ruby-2.3.1@rails5.0 --create
+gem install rails
+gem install nokogiri -- --use-system-libraries
+
+rails -v 
+
+rails new bridge-api --api
+
+
+sublime ~/.aws/config
+# ADD profile
+
+eb init --profile bridge
+
+bridge.$.bridge
+

@@ -1,0 +1,15 @@
+rails g scaffold Item name:string description:text
+rails db:migrate
+
+curl -H "Content-Type: application/json" -X POST -d '{"email":"example@mail.com","password":"123123123"}' http://localhost:3000/authenticate
+
+rails g scaffold User name:string email:string password_digest:string is_student:boolean is_instructor:boolean
+
+curl -H "Content-Type: application/json" -X POST -d '{"email":"example@mail.net","password":"123123123", "password_confirmation": 
+"123123123"}' http://localhost:3000/users/create
+
+
+curl -H "Content-Type: application/json" -X POST -d '{"email":"example@mail.net","password":"123123123", "password_confirmation": 
+"123123123"}' http://bridge.us-west-2.elasticbeanstalk.com/users/create
+
+curl -H "Content-Type: application/json" -X POST -d '{"email":"example@mail.net","password":"123123123"}' http://bridge.us-west-2.elasticbeanstalk.com/authenticate

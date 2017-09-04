@@ -1,0 +1,72 @@
+eval `ssh-agent -s` && ssh-add /Users/konstantinyurchenko/.ssh/
+staffer_club_id_rsa
+
+########
+# PROD
+########
+tail -f /var/log/puma/puma.log 
+tail -f /var/log/eb-activity.log
+
+tail -f /var/app/current/log/production.log 
+
+cd /var/app/current/ && rails console
+
+########
+# LOCAL
+########de
+
+bin/rails server
+http://localhost:3000
+kill -9 $(lsof -t -i :3000)
+
+tail -f log/development.log
+
+rails s --environment=test
+rails console --environment=test 
+
+
+rails g model User name email password_digest
+rake db:migrate RAILS_ENV=test
+
+rake db:reset RAILS_ENV=test
+rake db:migrate RAILS_ENV=test
+
+rails c --environment=test
+
+rake db:migrate RAILS_ENV=test
+rake db:schema:dump --trace RAILS_ENV=test
+rake db:seed:dump RAILS_ENV=test
+
+rake db:schema:dump RAILS_ENV=test
+
+curl -H "Content-Type: application/json" -X POST -d '{"email":"example@mail.com","password":"123123123"}' http://localhost:3000/authenticate
+
+eval `ssh-agent -s` && ssh-add /Users/konstantinyurchenko/.ssh/staffer_club_id_rsa
+
+
+curl -H "Content-Type: application/json" -X POST -d '{"email":"example@mail.com","password":"123123123"}' http://bridge.us-west-2.elasticbeanstalk.com/authenticate
+
+curl -H "Content-Type: application/json" -X POST -d '{"email":"example@mail.com","password":"123123123"}' http://bridge-dev.us-west-2.elasticbeanstalk.com/authenticate
+
+
+bridge.us-west-2.elasticbeanstalk.com/
+
+User.create!(email: 'example@mail.com' , password: '123123123' , password_confirmation: '123123123')
+
+curl bridge.us-west-2.elasticbeanstalk.com/items
+curl localhost:3000/items
+
+rake db:setup RAILS_ENV=test 
+
+curl bridge.us-west-2.elasticbeanstalk.com/ping
+
+https://github.com/pluralsight/guides/blob/master/published/ruby-ruby-on-rails/token-based-authentication-with-ruby-on-rails-5-api/article.md
+
+curl -H "Content-Type: application/json" -X POST -d '{}' localhost:3000/users/3
+curl -H "Content-Type: application/json" -X PUT -d '{}' localhost:3000/users/3
+
+
+#
+ActiveRecord::Base.connection.tables
+
+FacebookAccount.delete_all && InstructorProfile.delete_all && LessonRequest.delete_all && Lesson.delete_all && Message.delete_all && StudentProfile.delete_all && User.delete_all
